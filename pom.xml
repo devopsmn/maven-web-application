@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Jsoft Solutions Ltd </name>
-	      <url>http://13.233.144.253:9980/jsoft/repository/wallmart-release/</url>
+	      <url>http://13.127.168.198:9980/jsoft/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Jsoft Solutions Ltd </name>
-	      <url>http://13.233.144.253:9980/jsoft/repository/wallmart-snapshot/</url>
+	      <url>http://13.127.168.198:9980/jsoft/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

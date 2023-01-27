@@ -10,7 +10,7 @@ resource "aws_vpc" "kubernetes" {
 }
 # IGW for demo_vpc
 resource "aws_internet_gateway" "kubernetes_vpc_igw" {
-  vpc_id = aws_vpc.kubernetes.vpc_id
+  vpc_id = aws_vpc.kubernetes.id
   tags = {
     Name = "kubernetes_vpc_igw"
   }

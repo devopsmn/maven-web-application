@@ -15,7 +15,7 @@ variable "availability_zones" {
   type    = list(string)
   default = ["ap-south-1a", "ap-south-1b"]
 }
-variable "kubernates_ami" {
+variable "kubernetes_ami" {
   default = "ami-0b44050b2d893d5f7"
 }
 variable "master_instance_type" {
